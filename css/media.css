@@ -1,0 +1,206 @@
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+
+.pddl-10 {
+     padding-left: 0px;
+    
+}
+.top-link ul li a i {
+    font-size: 16px;
+}
+.top-link ul li a {
+    font-size: 14px;
+    padding: 0;
+  
+}
+.list{
+	padding: 0!important;
+}
+/*header start*/
+.img{
+  width: 70%;
+}
+.imgs {
+    width: 95%;
+}
+.menu ul li  {
+	text-align: right;
+	padding: 0 !important;
+
+}
+
+/*banner*/
+.banner-content{
+	padding:60px 0;
+	text-align: center;
+}
+.banner-content h1{
+     font-size: 25px;
+}
+.banner-content p {
+    font-size: 16px;
+}
+.banner-content button {
+    font-size: 16px;
+    padding: 10px 18px;
+}
+/*service*/
+.service{
+padding: 50px 0;
+}
+.service-content h1{
+    font-size: 24px;
+}
+.service-content p{
+   font-size: 16px;
+}
+.box1{
+	width: 30px;
+	height: 4px;
+	background-color: #424242;
+}
+.card-body {
+    padding: 35px 30px;
+    margin-bottom: 40px;
+}
+.step {
+    width: 70px;
+    height: 70px;
+    left: 120px;
+    top: -359px;
+}
+.step h1 {
+    font-size: 35px;
+}
+.step h2{
+  font-size: 16px;
+}
+
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+/*header start*/
+.menu ul li {
+	text-align: right;
+	padding: 0 !important;
+
+}
+/*banner*/
+.banner-content{
+	padding:120px 0;
+	text-align: center;
+}
+.banner-content h1{
+     font-size: 30px;
+}
+.banner-content p {
+    font-size: 20px;
+}
+.banner-content button {
+    font-size: 18px;
+    padding: 10px 18px;
+}
+/*service*/
+.service{
+padding: 60px 0;
+}
+.service-content h1{
+    font-size: 28px;
+}
+.service-content p{
+   font-size: 18px;
+}
+.box1{
+	width: 40px;
+	height: 5px;
+	background-color: #424242;
+}
+/*card*/
+.card-body {
+    padding: 35px 30px;
+    margin-bottom: 40px;
+}
+.step {
+    width: 96px;
+    height: 95px;
+    left: 240px;
+    top: -295px;
+}
+.step2 {
+    left: 245px;
+}
+
+}
+
+ 
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/*header start*/
+.menu ul li {
+	text-align: right;
+	padding: 0 !important;
+
+}
+
+ /*banner*/
+ /*card*/
+.card-body {
+    padding: 18px 30px;
+}
+.card-title {
+    font-size: 20px;
+}
+.card-text {
+    font-size: 16px;
+}
+/*step*/
+.step h1 {
+    font-size: 38px;
+}
+.step h2 {
+    font-size: 16px;
+}
+.step {
+    width: 66px;
+    height: 68px;
+    left: 200px;
+    top: -149px;
+}
+.step2 {
+    left: 446px;
+}
+
+}
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*card*/
+    .card-body {
+        padding: 56px 50px;
+    }
+    /*step*/
+    .step {
+        left: 268px;
+        top: -195px;
+        width: 90px;
+        height: 92px;
+    }
+    .step2 {
+        left: 593px;
+    }
+
+}
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+      /*card*/
+      .step2 {
+          left: 707px;
+      }
+
+ }

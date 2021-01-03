@@ -1,0 +1,276 @@
+@font-face{
+	src:url(../fonts/Helvetica-Neue-Bold.ttf); 
+	font-family: Helvetica-Neue-Bold;
+}
+@font-face{
+	src:url(../fonts/HelveticaNeue.ttf); 
+	font-family:HelveticaNeue;
+}
+
+/*font-family:  font36438;helvetica bold
+	
+	font-family: font36450; helvetica normal
+   font-family: font2708;OpenSans
+   font-family: font112148; helveticaNeue light;
+	*/
+
+body{
+font-family: Helvetica-Neue-Bold;
+
+}
+.upper-head{
+	padding:10px 0;
+	background-color: #f0f2f4;
+}
+.list{
+	margin:0;
+}
+.top-link{
+	text-align: right;
+	}
+.top-link ul{
+	margin-right: 20px;
+}
+.top-link ul li{}
+.top-link ul li a{
+	font-family: font36450;
+	/*font-family:HelveticaNeue;*/
+	font-weight: 500;
+	font-size: 16px;
+	color:#262626;
+	padding:0 5px;
+}
+.top-link ul li a i{
+	font-size: 20px;
+}
+.top-link ul li:last-child a i{
+	font-size:25px;
+     color:blue;
+     padding-right: 0;
+}
+.pddl-10{
+	padding-left:10px; 
+	margin-top: 5px !important;
+}
+
+/*header star*/
+header{
+	padding: 30px 0;
+}
+.menu{
+
+}
+.menu ul{
+
+}
+.menu ul li{
+
+}
+.menu ul li a {
+    font-size: 15px;
+    color:#555555! important;
+    transition: .5s;
+    /*padding: 0 40px !important;*/
+}
+.menu ul li a:hover{
+	/*color: white! important;*/
+}
+.box{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color:#555555! important; 
+	margin-top: 18px;
+}
+.btn-custom{
+	font-size: 15px;
+	color: white;
+	padding: 5px 20px;
+	background-color:#de2b24;
+	margin-left: 30px;
+}
+/*banner start*/
+.banner {
+
+	margin:0;
+	padding: 0;
+	background-image: url(../image/banner.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: center;
+}
+.banner-content{
+	padding: 180px 0;
+	text-align: center;
+}
+.banner-content h1{
+     font-size: 48px;
+     color: #ffffff;
+}
+.banner-content p{
+	font-family: font112148; 
+	font-size: 28px;
+     color: #ffffff;
+}
+.banner-content button{
+	font-size: 22px;
+	color: white;
+	padding: 15px 45px;
+	background-color:#f8cd53;
+	margin-top: 10px;
+}
+/*service start*/
+.service{
+padding-top: 100px;
+padding-bottom: 60px;
+}
+.service-content{
+margin-bottom: 40px;
+}
+.service-content h1{
+
+    font-size: 35px;
+    color: #424242;
+}
+.service-content p{
+   font-family: font112148;
+   font-size: 22px;
+color: #787878;
+
+}
+.box1{
+	width: 60px;
+	height: 7px;
+	background-color: #424242;
+	margin:0 auto;
+}
+/*.box1{
+
+}*/
+.s_content{
+	padding-bottom: 40px;
+}
+.s_content h1{
+    font-size: 19px;
+    color: #424242!important;
+    margin-top: 20px;
+}
+.s_content p{
+	font-family: font2708;
+    font-size: 16px;
+    color: #5c5c5c!important;
+    margin-top: 20px;
+}
+/*approch start*/
+.approch{
+	padding: 100px 0;
+	background-color:#f3f3f3;
+}
+.card-img{
+	position: relative!important;
+}
+.card-body{
+	background-color:#ffffff;
+	/*padding: 0;*/
+	padding: 77px 70px;
+	margin-bottom: 40px;
+	position: relative !important;
+}
+.card-title{
+ font-size: 20px;
+ color:#424242;
+ /*margin-top: 60px;*/
+}
+.card-text{
+	font-family: font2708;
+	font-size: 17px;
+}
+.p0{
+	padding: 0;
+}
+.step {
+    width: 110px;
+    height: 104px;
+    position: absolute!important;
+    background-color: red;
+    left: 321px;
+    color: black;
+    top: -223px;
+    border-color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.step h1{
+	margin: 0;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+.step h2{
+	margin-top: 0;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+.step2 {
+    left: 705px;   
+}
+/*our work*/
+.our-work{
+	padding: 100px 0;
+	background-color:#de2b24;
+}
+.clrw{
+	color: white!important;
+}
+.Bclrw{
+	background-color: white;
+}
+/*overlay*/
+.overlay-project{
+position: relative;
+}
+.image{
+	display: block;
+	width: 100%!important;
+	height: auto;
+}
+.image img{
+	display: block;
+	width: 100%;
+}
+.overlay-content{
+position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+	background-color: #f35e59;
+
+}
+.overlay-content i{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 40px;
+	color: #fff;
+}
+.overlay-content h1{
+    font-size: 18px;
+    color: #fff;
+}
+.overlay-content p{
+    font-size: 14px;
+    color: #fff;
+}
+.overlay-project:hover .overlay-content {
+  opacity:.91;
+}
+/*.mrgn-tp{
+	margin:20px 0;
+}*/
